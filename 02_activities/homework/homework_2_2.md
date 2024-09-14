@@ -53,5 +53,3 @@ SELECT *
 FROM vendor as v
 INNER JOIN  vendor_booth_assignments as va ON v.vendor_id = va.vendor_id
 ORDER BY vendor_name,market_date 
-
-Completed!
